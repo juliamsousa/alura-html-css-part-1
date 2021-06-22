@@ -5,20 +5,46 @@
     <title>Barbearia Alura - Curso HTML e CSS</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="global.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"
   </head>
 
   <!-- no body passamos o conteudo a ser exibido no navegador -->
   <body>
-    <img id="banner" src="banner.jpg" />
+    <header>
+      <h1 class="mainTitle">Barbearia Alura</h1>
+    </header>
 
-    <h1>Sobre a Barbearia Alura</h1>
+    <div class="presentation">
+      <img id="banner" src="banner.jpg" />
   
-    <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-  
-    <p id="mission"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
-  
-    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.</p>
-    <p>O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+      <h2 class="centralizedTitle">Sobre a Barbearia Alura</h2>
+    
+      <!-- ids sao atributos unicos -->
+      <p id="mission"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+      
+      <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+      
+      <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.
+        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    </div>
 
+    <div class="benefits">
+      <h3 class="centralizedTitle">Benefícios</h3>
+  
+      <ul>
+        <!-- a class nao é unica, pode ser repetida para elementos comuns-->
+        <li class="item">Atendimento aos clientes</li>
+        <li class="item">Espaço diferenciado</li>
+        <li class="item">Localização</li>
+        <li class="item">Profissionais Qualificados</li>
+      </ul>
+
+      <img id="benefitsImg" src="beneficios.jpg" />
+    </div>
   </body>
 </html>

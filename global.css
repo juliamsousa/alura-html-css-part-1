@@ -1,16 +1,63 @@
-* {
+body {
   background-color: #CCCCCC;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainTitle {
+  padding-left: 5%;
+  margin: 2%;
+}
+
+.presentation {
+  background-color: #fff;
+  padding: 5%;
+  margin: 0 10% 5% 10%;
+  border-radius: 10px;
 }
 
 #banner {
   width: 100%;
+  margin-bottom: 5%;
 }
 
-h1 {
+.centralizedTitle {
   text-align: center;
 }
 
 #mission {
   font-size: 20px;
   text-align: center;
+  margin: 5% 0;
+}
+
+.item {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.benefits {
+  background: #fff;
+  padding: 5%;
+  margin: 0 10% 5% 10%;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-right: 10%;
+}
+
+li {
+  margin-bottom: 5%;
+}
+
+#benefitsImg {
+  width: 50%;
 }
